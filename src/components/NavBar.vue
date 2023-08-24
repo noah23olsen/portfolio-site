@@ -6,6 +6,7 @@
       <div class="nav-links">
         <router-link class="nav-link" :to="{name: 'AboutMeName'}">About</router-link>
         <router-link class="nav-link" :to="{name: 'NoahsProjectsName'}">Projects</router-link>
+         <router-link class="nav-link" :to="{name: 'ContactNoah'}">Contact</router-link>
       </div>
     </div>
   </nav>
