@@ -4,6 +4,9 @@
     <div class="container">
       <section class="about-me">
         <div class="about-me-content">
+          <div class ="wip-content">
+          <h1 class ="wiph1">Note: this site is a work in progress 8/24/2023</h1>
+          </div>
           <h1>About Me</h1>
           <p>
         My name is Noah-- and I'm on a mission to upend the solar system through the integration of business and technology.
@@ -65,5 +68,13 @@ export default {
   height: auto;
   padding:5rem;
   border-radius:6rem;
+}
+.wiph1{
+  color:white;
+}
+.wip-content{
+  border:1px solid gray;
+  background-color:black;
+  text-align: center;
 }
 </style>
