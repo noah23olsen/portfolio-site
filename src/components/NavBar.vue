@@ -22,6 +22,13 @@ export default {
 .navbar {
   background-color: #333; /* Change navbar background color */
   padding: 20px 0;
+  width:100%;
+  overflow-x:hidden;
+}
+@media only screen and (max-width:500px){
+  .navbar{
+    overflow-x:hidden;
+  }
 }
 
 .logo {

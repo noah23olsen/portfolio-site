@@ -19,7 +19,7 @@ Interested in chatting? Send a direct message or reach out at noah24olsen@gmail(
           </p>
         </div>
         <div class="about-me-image">
-          <img :src="imageSrc">
+          <img id="aboutMeImg" :src="imageSrc">
         </div>
       </section>
     </div>
@@ -38,6 +38,29 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width:500px){
+  #aboutMeImg{
+    padding:0px;
+    display:none;
+  }
+  div.about-me-image{
+    align-items: center;
+  }
+  section.about-me{
+    margin: 0 0 0 0
+  }
+  .about-me-content {
+  width:100%;
+  padding:0;
+  }
+  .about-me p{
+    margin:0;
+  }
+  .main-content{
+    padding:0px;
+  }
+
+}
 .main-content {
   padding: 50px 0;
 }
@@ -49,8 +72,8 @@ export default {
 }
 
 .about-me-content {
+  padding:2rem;
   flex: 1;
-  padding-left:10rem;
   width:50%;
 }
 

@@ -1,15 +1,21 @@
 <template>
   <main>
     <section class="contact-section">
+        <a href="https://www.linkedin.com/in/noaholsen-/">
         <div class="site-link">
-            <a href="https://www.linkedin.com/in/noaholsen-/">LinkedIn</a>
+            <p>LinkedIn</p>
         </div>
+        </a>
+        <a href="https://github.com/noah23olsen">
         <div class="site-link">
-            <a href="https://github.com/noah23olsen">Github</a>
+            <p>Github</p>
         </div>
+        </a>
+        <a href="https://twitter.com/sirNoahOlsen">
         <div class="site-link">
-            <a href="https://twitter.com/sirNoahOlsen">X</a>
+            <p>X</p>
         </div>
+        </a>
     </section>
   </main>
 </template>
@@ -22,11 +28,17 @@ export default {
 
 <style>
 div.site-link{
+    text-align: center;
     padding:2rem;
     border:5px solid black;
     margin:1rem;
     border-radius: 1rem;
-    background-color:rgba(67, 63, 63, 0.292);
+    background-color:rgba(168, 147, 147, 0.292);
+    width: 50%;
+}
+div.site-link:hover{
+    background-color:white;
+
 }
 .contact-section{
     padding:10px;

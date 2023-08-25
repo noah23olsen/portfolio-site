@@ -146,4 +146,9 @@ p.overlay-text{
     color:white;
     text-align: center;
 }
+@media only screen and (max-width:500px){
+    .projectsSection{
+    grid-template-columns: 1fr;
+  }
+}
 </style>
