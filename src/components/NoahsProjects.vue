@@ -17,18 +17,33 @@
             <img src="../assets/chatbotPic.png" />
           </div>
         </div>
-        <div
+          <div
           class="project"
-          @click="redirectToLink('https://github.com/noah23olsen/module-2-capstone')"
-          @mouseover="showOverlay2 = true"
-          @mouseleave="showOverlay2 = false"
+          @click="redirectToLink('https://youtu.be/z2Mgc4NLjW4?si=7EE4ZmBwIKO6rcoa')"
+          @mouseover="showOverlay8 = true"
+          @mouseleave="showOverlay8 = false"
         >
-          <div class="overlay" v-if="showOverlay2">
+          <div class="overlay" v-if="showOverlay8">
             <p class="overlay-text">placeholder text</p>
           </div>
           <div v-else>
-            <p class="projectTitle">Tenmo</p>
-            <img src="../assets/tenmo.png" />
+            <p class="projectTitle">Reflected Light To Solar Panel Capturer</p>
+            <img src="../assets/solarCapturer.png" />
+          </div>
+        </div>
+          <div
+          class="project"
+          @mouseover="showOverlay7 = true"
+          @mouseleave="showOverlay7 = false"
+          @click="redirectToLink('https://github.com/noah23olsen/hackathonAtCohatch')"
+
+        >
+          <div class="overlay" v-if="showOverlay7">
+            <p class="overlay-text">placeholder text</p>
+          </div>
+          <div v-else>
+            <p class="projectTitle">Quiz.AI</p>
+            <img src="../assets/Quiz.AI.png" />
           </div>
         </div>
         <!-- leave these bottom divs for now -->
@@ -75,7 +90,6 @@
         </div>
         <div
           class="project"
-          @click="redirectToLink('https://github.com/noah23olsen/m3-capstone')"
           @mouseover="showOverlay6 = true"
           @mouseleave="showOverlay6 = false"
         >
@@ -89,31 +103,16 @@
           </div>
            <div
           class="project"
-          @mouseover="showOverlay7 = true"
-          @mouseleave="showOverlay7 = false"
-          @click="redirectToLink('https://github.com/noah23olsen/hackathonAtCohatch')"
-
+          @click="redirectToLink('https://github.com/noah23olsen/module-2-capstone')"
+          @mouseover="showOverlay2 = true"
+          @mouseleave="showOverlay2 = false"
         >
-          <div class="overlay" v-if="showOverlay7">
+          <div class="overlay" v-if="showOverlay2">
             <p class="overlay-text">placeholder text</p>
           </div>
           <div v-else>
-            <p class="projectTitle">Quiz.AI</p>
-            <img src="../assets/Quiz.AI.png" />
-          </div>
-        </div>
-        <div
-          class="project"
-          @click="redirectToLink('https://youtu.be/z2Mgc4NLjW4?si=7EE4ZmBwIKO6rcoa')"
-          @mouseover="showOverlay8 = true"
-          @mouseleave="showOverlay8 = false"
-        >
-          <div class="overlay" v-if="showOverlay8">
-            <p class="overlay-text">placeholder text</p>
-          </div>
-          <div v-else>
-            <p class="projectTitle">Reflected Light To Solar Panel Capturer</p>
-            <img src="../assets/solarCapturer.png" />
+            <p class="projectTitle">Tenmo</p>
+            <img src="../assets/tenmo.png" />
           </div>
         </div>
       </section>
@@ -147,7 +146,7 @@ export default {
 <style>
 .projectTitle{
   text-align: center;
-  font-size:2.5rem;
+  font-size:2rem;
   font-weight: bold;
   color:black; 
   text-decoration: underline;
