@@ -28,22 +28,26 @@ export default {
 
 <style>
 div.site-link{
+    display:flex;
+     justify-content: center;
+    align-items: center;
     text-align: center;
     padding:2rem;
     border:5px solid black;
+    width:100%;;
     margin:1rem;
     border-radius: 1rem;
     background-color:rgba(168, 147, 147, 0.292);
-    width: 50%;
 }
 div.site-link:hover{
     background-color:white;
 
 }
 .contact-section{
-    padding:10px;
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 a{
     text-decoration: none;

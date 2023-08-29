@@ -188,11 +188,24 @@ p.overlay-text{
     font-size:5rem;
 }
 h1{
-  font-size:5rem;
+  font-size:2rem;
 }
 @media only screen and (max-width:500px){
     .projectsSection{
     grid-template-columns: 1fr;
+  }
+  img{
+    height:60%;
+    width: 80%;
+    padding:1.4rem;
+    border-radius:20%;
+  }
+  .project{
+    height:fit-content;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 }
 </style>
