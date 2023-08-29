@@ -170,6 +170,8 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+      height:fit-content;
+      padding:0px 2rem 2rem 2rem;
 }
 .projectsh1 {
   text-align: center;
@@ -197,7 +199,7 @@ h1{
   img{
     height:60%;
     width: 80%;
-    padding:1.4rem;
+    padding:0.5rem 1.4rem 0.5rem 1.4rem;
     border-radius:20%;
   }
   .project{
@@ -206,6 +208,14 @@ h1{
     justify-content: center;
     align-content: center;
     align-items: center;
+    padding:0rem;
+  }
+  .projectTitle{
+    font-size:1.5rem;
+    padding:0;
+  }
+  p{
+    margin:0;
   }
 }
 </style>
