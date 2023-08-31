@@ -11,7 +11,7 @@
         >
           <div class="overlay" v-if="showOverlay1">
             <p class="overlay-text">
-              A middleground chatbot between simplistic customer-service
+              [Final capstone] A middleground chatbot between simplistic customer-service
               chatbot, and custom LLMs such as chatGPT. The user can speak,
               listen, ask technical questions, receive custom emailed jobs,
               interpret code, take profile pictures, and keep context. This was
@@ -27,30 +27,6 @@
         </div>
         <div
           class="project"
-          @click="
-            redirectToLink('https://youtu.be/z2Mgc4NLjW4?si=7EE4ZmBwIKO6rcoa')
-          "
-          @mouseover="showOverlay8 = true"
-          @mouseleave="showOverlay8 = false"
-        >
-          <div class="overlay" v-if="showOverlay8">
-            <p class="overlay-text">
-              Part of MakeOHI/O, this project reads photos and moves the
-              contraption to the most efficient light-position. The project
-              utilizes Arduino IDE, 3d-printed cad models, and electrical
-              hardware components. I was one of the two "business" major
-              students at the hackathon, coupled with my partners expertise in
-              electrical engineering. This project has really instilled a
-              passion inside me for designing cool hardware/software projects.
-            </p>
-          </div>
-          <div v-else>
-            <p class="projectTitle">Reflected Light To Solar Panel Capturer</p>
-            <img src="../assets/solarCapturer.png" />
-          </div>
-        </div>
-        <div
-          class="project"
           @mouseover="showOverlay7 = true"
           @mouseleave="showOverlay7 = false"
           @click="
@@ -59,7 +35,7 @@
         >
           <div class="overlay" v-if="showOverlay7">
             <p class="overlay-text">
-              Generate custom quizzes with ChatGPT's turbo 3.5 large language
+              [Hackathon Project] Generate custom quizzes with ChatGPT's turbo 3.5 large language
               model in seconds! This project was created by me and a fellow Tech
               Elevator alumnus during a Google Developer Group hackathon this
               past weekend. In approximately 10 hours, we progressed from
@@ -72,6 +48,46 @@
             <img src="../assets/Quiz.AI.png" />
           </div>
         </div>
+        <div
+          class="project"
+          @click="
+            redirectToLink('https://github.com/noah23olsen/module-2-capstone')
+          "
+          @mouseover="showOverlay2 = true"
+          @mouseleave="showOverlay2 = false"
+        >
+          <div class="overlay" v-if="showOverlay2">
+            <p class="overlay-text">
+              [Second capstone] Utilized Java, PostgreSQL, Integration testing,
+              and Springboot to implement a client/serverside transfer service.
+              Utilizing the MVC design pattern, the application allows users to
+              register, login, send, and approve transfers to other users
+            </p>
+          </div>
+          <div v-else>
+            <p class="projectTitle">Tenmo</p>
+            <img src="../assets/tenmo.png" />
+          </div>
+        </div>
+        <div
+          class="project"
+          @click="redirectToLink('https://github.com/noah23olsen/m1-capstone')"
+          @mouseover="showOverlay5 = true"
+          @mouseleave="showOverlay5 = false"
+        >
+          <div class="overlay" v-if="showOverlay5">
+            <p class="overlay-text">
+              [First capstone] Utilizing Java, the POS application allows users
+              to deposit money into their accounts, add items to their carts,
+              and checkout at a respective store. The application also logs past
+              transaction history, viewable as a list of transactions.
+            </p>
+          </div>
+          <div v-else>
+            <p class="projectTitle">Cash Register Application</p>
+            <img src="../assets/cashRegister.png" />
+          </div>
+        </div>
         <!-- leave these bottom divs for now -->
         <div
           class="project"
@@ -80,7 +96,7 @@
         >
           <div class="overlay" v-if="showOverlay3">
             <p class="overlay-text">
-              This project enables users to transmit Morse code onto a computer
+              [Side Project] This project enables users to transmit Morse code onto a computer
               using their fingertips. I employed Arduino IDE for software
               development and Arduino Uno/electrical components for the
               hardware. When the user inputs Morse code using the button, the
@@ -100,7 +116,7 @@
         >
           <div class="overlay" v-if="showOverlay4">
             <p class="overlay-text">
-              Recognizing the perpetual untidiness in my shared living space, I
+              [Side Project] Recognizing the perpetual untidiness in my shared living space, I
               leveraged my newfound development skills to create a Slack bot
               using Java and Python. The bot assigns designated chores to
               household members every Sunday morning, effectively addressing the
@@ -114,16 +130,26 @@
         </div>
         <div
           class="project"
-          @click="redirectToLink('https://github.com/noah23olsen/m1-capstone')"
-          @mouseover="showOverlay5 = true"
-          @mouseleave="showOverlay5 = false"
+          @click="
+            redirectToLink('https://youtu.be/z2Mgc4NLjW4?si=7EE4ZmBwIKO6rcoa')
+          "
+          @mouseover="showOverlay8 = true"
+          @mouseleave="showOverlay8 = false"
         >
-          <div class="overlay" v-if="showOverlay5">
-            <p class="overlay-text">placeholder text</p>
+          <div class="overlay" v-if="showOverlay8">
+            <p class="overlay-text">
+              [Hackathon] Part of MakeOHI/O, this project reads photos and moves the
+              contraption to the most efficient light-position. The project
+              utilizes Arduino IDE, 3d-printed cad models, and electrical
+              hardware components. I was one of the two "business" major
+              students at the hackathon, coupled with my partners expertise in
+              electrical engineering. This project has really instilled a
+              passion inside me for designing cool hardware/software projects.
+            </p>
           </div>
           <div v-else>
-            <p class="projectTitle">Cash Register Application</p>
-            <img src="../assets/cashRegister.png" />
+            <p class="projectTitle">Reflected Light To Solar Panel Capturer</p>
+            <img src="../assets/solarCapturer.png" />
           </div>
         </div>
         <div
@@ -132,7 +158,14 @@
           @mouseleave="showOverlay6 = false"
         >
           <div class="overlay" v-if="showOverlay6">
-            <p class="overlay-text">placeholder text</p>
+            <p class="overlay-text">
+              [Hackathon] My first hackathon, in which I didn't know how to code at all. I
+              wanted to learn more about AI and coding, so I went anyway. Our
+              team used a kaggle dataset, google colab notebooks, python, and
+              some ML libraries to clean a wine quality dataset and predidct the
+              quality of wine based on ~10 variables. We originally used linear
+              regression, but pivoted to KNN.
+            </p>
           </div>
           <div v-else>
             <p class="projectTitle">
@@ -144,17 +177,27 @@
         <div
           class="project"
           @click="
-            redirectToLink('https://github.com/noah23olsen/module-2-capstone')
+            redirectToLink(
+              'https://www.freecodecamp.org/certification/NoahOlsen/responsive-web-design'
+            )
           "
-          @mouseover="showOverlay2 = true"
-          @mouseleave="showOverlay2 = false"
+          @mouseover="showOverlay9 = true"
+          @mouseleave="showOverlay9 = false"
         >
-          <div class="overlay" v-if="showOverlay2">
-            <p class="overlay-text">placeholder text</p>
+          <div class="overlay" v-if="showOverlay9">
+            <p class="overlay-text">
+              [Extra coursework I took on the side during college] A Responsive Web Design Certification(~300 hours), educating one
+              on the languages that developers use to build webpages: HTML
+              (Hypertext Markup Language) for content, and CSS (Cascading Style
+              Sheets) for design. You can check out some of the sites I
+              designed, mainly to see how far my coding skills have come. In
+              hindsight, the design for many of the sites is absolutely
+              atrocious!
+            </p>
           </div>
           <div v-else>
-            <p class="projectTitle">Tenmo</p>
-            <img src="../assets/tenmo.png" />
+            <p class="projectTitle">FreeCodeCamp Certification/Projects</p>
+            <img src="../assets/fcc.png" />
           </div>
         </div>
       </section>
@@ -175,6 +218,7 @@ export default {
       showOverlay6: false,
       showOverlay7: false,
       showOverlay8: false,
+      showOverlay9: false,
     };
   },
   methods: {
