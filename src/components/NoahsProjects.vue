@@ -11,13 +11,14 @@
         >
           <div class="overlay" v-if="showOverlay1">
             <p class="overlay-text">
-              [Final capstone] A middleground chatbot between simplistic customer-service
-              chatbot, and custom LLMs such as chatGPT. The user can speak,
-              listen, ask technical questions, receive custom emailed jobs,
-              interpret code, take profile pictures, and keep context. This was
-              my final capstone project, where I worked with 3 other students.
-              We had multi-day sprints, daily standups, code reviews, and a
-              final presentation.
+              [Final capstone]My final capstone project was a chatbot that
+              served as a middle ground between simplistic customer-service
+              chatbots and custom LLMs like chatGPT. The chatbot allowed users
+              to speak, listen, ask technical questions, receive custom emailed
+              jobs, interpret code, take profile pictures, and keep context. I
+              worked on this project with three other students, and we followed
+              an Agile methodology with multi-day sprints, daily standups, code
+              reviews, and a final presentation.
             </p>
           </div>
           <div v-else>
@@ -35,12 +36,12 @@
         >
           <div class="overlay" v-if="showOverlay7">
             <p class="overlay-text">
-              [Hackathon Project] Generate custom quizzes with ChatGPT's turbo 3.5 large language
-              model in seconds! This project was created by me and a fellow Tech
-              Elevator alumnus during a Google Developer Group hackathon this
-              past weekend. In approximately 10 hours, we progressed from
-              ideation to building the MVP, crafting a pitch, and presenting the
-              product to local Columbus developers.
+              [Hackathon Project] Generate custom quizzes with ChatGPT's turbo
+              3.5 large language model in seconds! This project was created by
+              me and a fellow Tech Elevator alumnus during a Google Developer
+              Group hackathon this past weekend. In approximately 10 hours, we
+              progressed from ideation to building the MVP, crafting a pitch,
+              and presenting the product to local Columbus developers.
             </p>
           </div>
           <div v-else>
@@ -96,9 +97,9 @@
         >
           <div class="overlay" v-if="showOverlay3">
             <p class="overlay-text">
-              [Side Project] This project enables users to transmit Morse code onto a computer
-              using their fingertips. I employed Arduino IDE for software
-              development and Arduino Uno/electrical components for the
+              [Side Project] This project enables users to transmit Morse code
+              onto a computer using their fingertips. I employed Arduino IDE for
+              software development and Arduino Uno/electrical components for the
               hardware. When the user inputs Morse code using the button, the
               corresponding text is displayed on an external monitor.
             </p>
@@ -116,11 +117,11 @@
         >
           <div class="overlay" v-if="showOverlay4">
             <p class="overlay-text">
-              [Side Project] Recognizing the perpetual untidiness in my shared living space, I
-              leveraged my newfound development skills to create a Slack bot
-              using Java and Python. The bot assigns designated chores to
-              household members every Sunday morning, effectively addressing the
-              cleanliness issue.
+              [Side Project] Recognizing the perpetual untidiness in my shared
+              living space, I leveraged my newfound development skills to create
+              a Slack bot using Java and Python. The bot assigns designated
+              chores to household members every Sunday morning, effectively
+              addressing the cleanliness issue.
             </p>
           </div>
           <div v-else>
@@ -138,8 +139,8 @@
         >
           <div class="overlay" v-if="showOverlay8">
             <p class="overlay-text">
-              [Hackathon] Part of MakeOHI/O, this project reads photos and moves the
-              contraption to the most efficient light-position. The project
+              [Hackathon] Part of MakeOHI/O, this project reads photos and moves
+              the contraption to the most efficient light-position. The project
               utilizes Arduino IDE, 3d-printed cad models, and electrical
               hardware components. I was one of the two "business" major
               students at the hackathon, coupled with my partners expertise in
@@ -159,12 +160,12 @@
         >
           <div class="overlay" v-if="showOverlay6">
             <p class="overlay-text">
-              [Hackathon] My first hackathon, in which I didn't know how to code at all. I
-              wanted to learn more about AI and coding, so I went anyway. Our
-              team used a kaggle dataset, google colab notebooks, python, and
-              some ML libraries to clean a wine quality dataset and predidct the
-              quality of wine based on ~10 variables. We originally used linear
-              regression, but pivoted to KNN.
+              [Hackathon] My first hackathon, in which I didn't know how to code
+              at all. I wanted to learn more about AI and coding, so I went
+              anyway. Our team used a kaggle dataset, google colab notebooks,
+              python, and some ML libraries to clean a wine quality dataset and
+              predidct the quality of wine based on ~10 variables. We originally
+              used linear regression, but pivoted to KNN.
             </p>
           </div>
           <div v-else>
@@ -186,13 +187,13 @@
         >
           <div class="overlay" v-if="showOverlay9">
             <p class="overlay-text">
-              [Extra coursework I took on the side during college] A Responsive Web Design Certification(~300 hours), educating one
-              on the languages that developers use to build webpages: HTML
-              (Hypertext Markup Language) for content, and CSS (Cascading Style
-              Sheets) for design. You can check out some of the sites I
-              designed, mainly to see how far my coding skills have come. In
-              hindsight, the design for many of the sites is absolutely
-              atrocious!
+              [Extra coursework I took on the side during college] A Responsive
+              Web Design Certification(~300 hours), educating one on the
+              languages that developers use to build webpages: HTML (Hypertext
+              Markup Language) for content, and CSS (Cascading Style Sheets) for
+              design. You can check out some of the sites I designed, mainly to
+              see how far my coding skills have come. In hindsight, the design
+              for many of the sites is absolutely atrocious!
             </p>
           </div>
           <div v-else>
