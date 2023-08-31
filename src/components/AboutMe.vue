@@ -5,7 +5,7 @@
       <section class="about-me">
         <div class="about-me-content">
           <div class ="wip-content">
-          <h1 class ="wiph1">Note: this site is a work in progress 8/24/2023</h1>
+          <h1 class ="wiph1">Note: this site is a work in progress 8/31/2023</h1>
           </div>
           <h1>About Me</h1>
           <p>
@@ -83,7 +83,7 @@ export default {
 }
 
 .about-me p {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .about-me-image img {

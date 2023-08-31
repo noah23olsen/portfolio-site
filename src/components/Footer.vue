@@ -3,7 +3,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2023 Noah Olsen</p>
+      <p class="footerText">&copy; 2023 Noah Olsen</p>
     </div>
   </footer>
 </template>
@@ -17,9 +17,17 @@ export default {
 <style scoped>
 .footer {
   background-color: #333;
-  padding: 20px 0;
   text-align: center;
+  height: 5rem;
+  bottom: 0;
+  left:0;
   color: white;
   text-decoration: none;
+  width:100%;
+  position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
+
 </style>
