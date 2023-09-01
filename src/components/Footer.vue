@@ -24,7 +24,6 @@ export default {
   color: white;
   text-decoration: none;
   width:100%;
-  position:fixed;
   display: flex;
   align-items: center;
   justify-content: center

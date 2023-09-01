@@ -1,6 +1,7 @@
 <template>
   <main>
     <section class="contact-section">
+      <h1>My Socials</h1>
         <a href="https://www.linkedin.com/in/noaholsen-/">
         <div class="site-link">
             <p class="siteText">LinkedIn</p>
@@ -59,9 +60,13 @@ a{
 }
 a:hover{
     text-decoration: underline;
+    color:white;
 }
 p.siteText{
     font-size:3rem;
+}
+h1{
+  font-size:3rem;
 }
 
 </style>

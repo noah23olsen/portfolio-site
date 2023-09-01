@@ -11,7 +11,7 @@
         >
           <div class="overlay" v-if="showOverlay1">
             <p class="overlay-text">
-              [Final capstone]My final capstone project was a chatbot that
+              [Final capstone] My final capstone project was a chatbot that
               served as a middle ground between simplistic customer-service
               chatbots and custom LLMs like chatGPT. The chatbot allowed users
               to speak, listen, ask technical questions, receive custom emailed
@@ -236,7 +236,6 @@ export default {
   font-size: 2rem;
   font-weight: bold;
   color: black;
-  text-decoration: underline;
 }
 img {
   width: 100%;
@@ -251,8 +250,8 @@ img {
   padding: 0 5rem 5rem 5rem;
 }
 .project {
-  background-color: rgb(222, 222, 222);
-  border: 5px solid gray;
+  background-color: rgb(240, 236, 236);
+  border: 5px solid black;
   border-radius: 10%;
   display: flex;
   flex-direction: column;
@@ -272,6 +271,8 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 10%;
+  margin-top:1rem;
+  padding:1.2rem;
 }
 p.overlay-text {
   text-align: center;
