@@ -5,7 +5,7 @@
       <section class="about-me">
         <div class="about-me-content">
           <div class ="wip-content">
-          <h1 class ="wiph1">Note: this site is a work in progress 8/31/2023</h1>
+          <h1 class ="wiph1">Note: this site is a work in progress as of 8/31. It's not currently mobile friendly.</h1>
           </div>
           <h1>About Me</h1>
           <p>
