@@ -250,6 +250,7 @@ img {
   padding: 0 5rem 5rem 5rem;
 }
 .project {
+    transition: transform 0.3s ease;
   background-color: rgb(240, 236, 236);
   border: 5px solid black;
   border-radius: 10%;
@@ -265,6 +266,7 @@ img {
 }
 .project:hover {
   cursor: pointer;
+    transform: scale(1.05);
 }
 .overlay {
   background-color: rgb(158, 152, 152, 0.144);

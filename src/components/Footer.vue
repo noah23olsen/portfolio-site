@@ -1,32 +1,45 @@
-<!-- src/components/Footer.vue -->
 <template>
-  <!-- Footer -->
   <footer class="footer">
+    <p class="footerText">&copy; 2023 Noah Olsen</p>
     <div class="container">
-      <p class="footerText">&copy; 2023 Noah Olsen</p>
+      <i class="uil uil-linkedin"></i>
+      <i class="uil uil-github-alt"></i>
+      <i class="uil uil-twitter"></i>
     </div>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'FooterVue',
-}
+  name: "FooterVue",
+};
 </script>
 
 <style scoped>
 .footer {
   background-color: #333;
-  text-align: center;
-  height: 5rem;
-  bottom: 0;
-  left:0;
   color: white;
-  text-decoration: none;
-  width:100%;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+div.container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+i{
+  padding:1rem
+}
+i:hover{
+  color:rgb(182, 177, 177);
+  cursor:pointer;
 }
 
+@media only screen and (max-width: 500px) {
+}
 </style>
