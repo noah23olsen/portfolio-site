@@ -1,7 +1,5 @@
 <template>
   <!-- Main content -->
-  <main class="main-content">
-    <div class="container">
       <section class="about-me">
         <div class="about-me-content">
           <div class="wip-content">
@@ -33,8 +31,7 @@
         </div>
           <img class="about-me-image" src="../assets/noah_olsen.png" />
       </section>
-    </div>
-  </main>
+      <i class="uil uil-angle-down"></i>
 </template>
 
 <script>
@@ -43,6 +40,12 @@ export default {
 };
 </script>
 <style scoped>
+i.uil-angle-down{
+  /* display:none; */
+  font-size:3rem;
+  display:flex;
+  justify-content: center;
+}
 .about-me {
   display: flex;
   align-items: center;

@@ -3,7 +3,7 @@
   <nav class="navbar">
       <div class="nav-links">
         <div class="nav-link" @click="$router.push({ name: 'AboutMeName' })">About</div>
-        <div class="nav-link" @click="$router.push({ name: 'NoahsProjectsName' })">Projects</div>
+        <!-- <div class="nav-link" @click="$router.push({ name: 'NoahsProjectsName' })">Projects</div> -->
       </div> <!-- Add this closing div tag -->
   </nav>
 </template>

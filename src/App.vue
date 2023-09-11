@@ -2,7 +2,7 @@
   <div class="container">
     <NavBar></NavBar>
     <router-view/>
-    <!-- <NoahsProjects/> -->
+    <NoahsProjects/>
     <FooterVue></FooterVue>
   </div>
 </template>
@@ -11,7 +11,7 @@
 // import AboutMe from './components/AboutMe.vue'
 import NavBar from './components/NavBar.vue'
 import FooterVue from './components/Footer.vue';
-// import NoahsProjects from './components/NoahsProjects.vue';
+import NoahsProjects from './components/NoahsProjects.vue';
 
 export default {
   name: 'App',
@@ -19,7 +19,7 @@ export default {
     // AboutMe,
     NavBar,
     FooterVue,
-    // NoahsProjects,
+    NoahsProjects,
   }
 }
 </script>

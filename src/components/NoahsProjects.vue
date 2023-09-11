@@ -1,6 +1,5 @@
 <template>
   <main class="main-content">
-    <div class="container">
       <h1 class="projectsh1">My Projects</h1>
       <section class="projectsSection">
         <div
@@ -202,7 +201,6 @@
           </div>
         </div>
       </section>
-    </div>
   </main>
 </template>
 
@@ -246,19 +244,13 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5rem;
-  justify-content: space-between;
   padding: 0 5rem 5rem 5rem;
 }
 .project {
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   background-color: rgb(240, 236, 236);
-  border: 5px solid black;
+  border: 5px solid rgb(190, 185, 185);
   border-radius: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: fit-content;
   padding: 0px 2rem 2rem 2rem;
 }
 .projectsh1 {
@@ -266,15 +258,7 @@ img {
 }
 .project:hover {
   cursor: pointer;
-    transform: scale(1.05);
-}
-.overlay {
-  background-color: rgb(158, 152, 152, 0.144);
-  height: 100%;
-  width: 100%;
-  border-radius: 10%;
-  margin-top:1rem;
-  padding:1.2rem;
+  transform: scale(1.05);
 }
 p.overlay-text {
   text-align: center;
