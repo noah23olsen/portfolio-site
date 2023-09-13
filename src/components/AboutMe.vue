@@ -4,14 +4,13 @@
         <div class="about-me-content">
           <div class="wip-content">
             <h1 class="wiph1">
-              Note: this site is a work in progress as of 8/31. It's not
-              currently mobile friendly.
+              Note: this site is a work in progress as of 9/13
             </h1>
           </div>
           <h1>About Me</h1>
           <p>
             My name is Noah-- and I'm on a mission to build the future through
-            the integration of business and technology. This past summer, I
+            the integration of business and technology. Last summer, I
             worked at an innovative venture capital firm and was given the
             opportunity to work alongside some of the most exciting technologies
             of our future. During this, an undeniable urge kept growing inside
@@ -26,7 +25,7 @@
             I had the pleasure of graduating this August, and am now searching
             for high-impact jr. software engineering roles. Interested in
             chatting? Send a direct message or reach out at
-            noah24olsen@gmail.com
+            noah23olsen@gmail.com
           </p>
         </div>
           <img class="about-me-image" src="../assets/noah_olsen.png" />
@@ -49,6 +48,7 @@ i.uil-angle-down{
 .about-me {
   display: flex;
   align-items: center;
+  height:80vh;
 }
 
 div.about-me-content {
@@ -61,8 +61,7 @@ div.about-me-content {
 img {
   width: 20rem;
   height: auto;
-  border-radius: 3rem 0rem 0rem 3rem;
-  padding-right:2rem;
+  border-radius: 3rem;
 }
 .wiph1 {
   color: white;
@@ -79,6 +78,9 @@ img {
   }
   img.about-me-image{
     border-radius: 2rem 2rem 2rem 2rem;
+  }
+  .about-me{
+    height:fit-content;
   }
 }
 </style>
