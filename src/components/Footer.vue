@@ -49,5 +49,8 @@ i:hover{
 }
 
 @media only screen and (max-width: 500px) {
+  i{
+    background-color:red;
+  }
 }
 </style>
