@@ -51,6 +51,9 @@ i:hover{
 @media only screen and (max-width: 500px) {
   i{
     background-color:red;
+    color:white;
+    z-index: 1;
+    padding:0.5rem;
   }
 }
 </style>
