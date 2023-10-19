@@ -3,7 +3,7 @@
   <nav class="navbar">
       <div class="nav-links">
         <div class="nav-link" @click="$router.push({ name: 'AboutMeName' })">About</div>
-        <!-- <div class="nav-link" @click="$router.push({ name: 'NoahsProjectsName' })">Projects</div> -->
+        <div class="nav-link" @click="scrollToBottom">Contact</div>
       </div> <!-- Add this closing div tag -->
   </nav>
 </template>
@@ -11,6 +11,15 @@
 <script>
 export default {
   name: 'NavBar',
+  methods: {
+    scrollToBottom(){
+      //gets size of element in relation to viewport
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
+        behavior: 'smooth'
+      })
+    }
+  }
 }
 </script>
 
