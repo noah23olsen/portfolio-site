@@ -10,6 +10,11 @@
             <!-- use mustache for text & props  -->
              {{description}}
             </p>
+            <div class="languages-container">
+             <span v-for="language in languages" :key="language" class="language">
+                {{language}}
+              </span>
+            </div>
           </div>
           <div v-else>
             <p class="projectTitle">{{title}}</p>
@@ -22,7 +27,7 @@
 <script>
 export default {
   //props we pass to child class
-  props:["description","title","link","img"],
+  props:["description","title","link","img","languages"],
 data(){
   return{
     showOverlay:false
@@ -35,3 +40,16 @@ redirectToLink(url) {
 }
 };
 </script>
+<style scoped>
+  .language{
+    padding: 0.5rem;
+    border: 1px solid #000; /* Change to your desired border color */
+    border-radius: 5px;
+    margin:0 0 0 0.2rem;
+      }
+  .languages-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Space between each language tag */
+}
+</style>

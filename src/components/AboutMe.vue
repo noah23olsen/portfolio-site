@@ -2,11 +2,11 @@
   <!-- Main content -->
       <section class="about-me">
         <div class="about-me-content">
-          <div class="wip-content">
+          <!-- <div class="wip-content">
             <h1 class="wiph1">
               Note: this site is a work in progress as of 10/18
             </h1>
-          </div>
+          </div> -->
           <h1>About Me</h1>
           <p>
             My name is Noah-- and I'm on a mission to build the future through
