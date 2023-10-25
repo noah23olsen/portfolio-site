@@ -1,6 +1,6 @@
 <template>
   <main class="main-content">
-    <h1 class="projectsh1">My Projects</h1>
+    <h1 class="projectsh1">Subjectively Interesting Projects</h1>
     <section class="projectsSection">
       <TheProject 
         v-for="project in projects"

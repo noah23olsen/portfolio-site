@@ -1,14 +1,8 @@
 <template>
-  <!-- Main content -->
       <section class="about-me">
         <div class="about-me-content">
-          <!-- <div class="wip-content">
-            <h1 class="wiph1">
-              Note: this site is a work in progress as of 10/18
-            </h1>
-          </div> -->
-          <h1>About Me</h1>
-          <p>
+          <h1>Hello!</h1>
+          <p class="about-me-text">
             My name is Noah-- and I'm on a mission to build the future through
             the integration of business and technology. Last summer, I
             worked at an innovative venture capital firm and was given the
@@ -22,10 +16,10 @@
             discovering the inefficiencies of humanitarian efforts.
           </p>
           <br>
-          <p>
+          <p class="about-me-text">
             I had the pleasure of graduating this August, and am now searching
             for high-impact jr. software engineering roles. Interested in
-            chatting? Send a direct message or reach out at
+            chatting? Send a direct message on LinkedIn or reach out at
             noah23olsen@gmail.com
           </p>
         </div>
@@ -52,7 +46,6 @@ export default {
 </script>
 <style scoped>
 i.uil-angle-down{
-  /* display:none; */
   font-size:3rem;
   display:flex;
   justify-content: center;
@@ -60,6 +53,7 @@ i.uil-angle-down{
 i:hover{
   color:darkgray;
   transform: scale(1.05);
+  cursor:pointer
 }
 .about-me {
   display: flex;
@@ -68,25 +62,22 @@ i:hover{
 }
 
 div.about-me-content {
-  padding: 2rem;
+  padding: 9rem 5rem 9rem 9rem;
   flex: 1;
+  width:80%;
 }
-.about-me p {
-  font-size: 1.2rem;
+.about-me-text{
+  font-size: 1.4rem;
   line-height: 1.4; 
 }
 img {
+  padding-right: 2rem;
   width: 20rem;
   height: auto;
-  border-radius: 3rem;
+  border-radius: 3rem 4rem 4rem 3rem;
 }
-.wiph1 {
-  color: white;
-}
-.wip-content {
-  border: 1px solid gray;
-  background-color: black;
-  text-align: center;
+h1{
+  font-size:2.3rem;
 }
 @media only screen and (max-width: 500px) {
   section.about-me {
