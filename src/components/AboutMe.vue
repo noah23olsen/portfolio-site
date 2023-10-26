@@ -85,13 +85,15 @@ h1{
     flex-direction: column;
   }
   img.about-me-image{
-    border-radius: 2rem 2rem 2rem 2rem;
   }
   .about-me{
     height:fit-content;
   }
   .about-me p{
     font-size:1rem;
+  }
+  div.about-me-content{
+    padding:0.5rem;
   }
 }
 </style>

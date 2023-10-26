@@ -98,6 +98,7 @@ export default {
   font-size: 2rem;
   font-weight: bold;
   color: black;
+  /* margin:1rem; */
 }
 img {
   width: 100%;
@@ -130,9 +131,12 @@ p.overlay-text {
   text-align: left;
 }
 @media only screen and (max-width: 500px) {
-  .projectsSection {
+    .projectsSection {
     grid-template-columns: 1fr;
-  }
+    padding:0;
+    justify-items: center;
+    padding-bottom: 1.5rem;
+   }
   img {
     height: 60%;
     width: 80%;
@@ -146,6 +150,7 @@ p.overlay-text {
     align-content: center;
     align-items: center;
     padding: 0rem;
+    width:80%;
   }
   .projectTitle {
     font-size: 1.5rem;
@@ -154,5 +159,6 @@ p.overlay-text {
   p {
     margin: 0;
   }
+
 }
 </style>
