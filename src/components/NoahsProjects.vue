@@ -120,6 +120,7 @@ img {
 }
 .projectsh1 {
   text-align: center;
+  padding:2rem;
 }
 .project:hover {
   cursor: pointer;
@@ -129,6 +130,14 @@ p.overlay-text {
   text-align: center;
   font-size: 1.5rem;
   text-align: left;
+}
+@media only screen and ( max-width: 1300px){
+  .projectsSection{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+    justify-items:center;
+  }
 }
 @media only screen and (max-width: 500px) {
     .projectsSection {

@@ -25,18 +25,18 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: #333;
+  background-color: white;
   display: flex;
   justify-content: center;
-  height: 5rem;
+  height: 10vh;
   align-items: center;
 }
 .nav-links{
   display: flex;
 }
 .nav-link {
-  background-color:rgba(0, 0, 0, 0.1);
-  color: white; /*text color */
+  background-color:rgba(154, 140, 140, 0.1);
+  color: black; /*text color */
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 0.5rem; /* Add border-radius for a modern look */
@@ -45,7 +45,8 @@ export default {
 }
 .nav-link:hover {
   cursor: pointer;
-  background-color: #9e9a9a; /* Change the color to your desired shade */
+  background-color: #141212; /* Change the color to your desired shade */
+  color:white;
 }
 
 

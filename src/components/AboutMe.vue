@@ -32,12 +32,11 @@
 export default {
   name: "HelloWorld",
   methods: {
-  
     scrollDown(){
-      //gets size of element in relation to viewport
-      const iconPosition = this.$refs.scrollIcon.getBoundingClientRect().bottom;
+      const targetElement = document.querySelector('.uil'); // Replace with your target element class
+      const targetPosition = targetElement.offsetTop;
       window.scrollTo({
-        top: iconPosition,
+        top: targetPosition,
         behavior: 'smooth'
       })
     }
@@ -45,10 +44,17 @@ export default {
 };
 </script>
 <style scoped>
+section{
+  background-color:rgb(54, 54, 54);
+  color:white;
+}
 i.uil-angle-down{
-  font-size:3rem;
-  display:flex;
-  justify-content: center;
+  font-size: 3rem;
+  position: absolute; /* or absolute, depending on your layout */
+  bottom: 0%; /* Adjust this value to position the icon closer or further from the bottom */
+  left: 50%; /* Center the icon horizontally */
+  color: white;
+  background-color: rgb(54, 54, 54);
 }
 i:hover{
   color:darkgray;
@@ -58,13 +64,12 @@ i:hover{
 .about-me {
   display: flex;
   align-items: center;
-  height:80vh;
+  min-height:90vh;
 }
 
 div.about-me-content {
-  padding: 9rem 5rem 9rem 9rem;
-  flex: 1;
   width:80%;
+  padding:5rem;
 }
 .about-me-text{
   font-size: 1.4rem;
@@ -74,7 +79,7 @@ img {
   padding-right: 2rem;
   width: 20rem;
   height: auto;
-  border-radius: 3rem 4rem 4rem 3rem;
+  border-radius: 20px;
 }
 h1{
   font-size:2.3rem;
