@@ -44,17 +44,11 @@ export default {
 };
 </script>
 <style scoped>
-section{
-  background-color:rgb(54, 54, 54);
-  color:white;
-}
 i.uil-angle-down{
   font-size: 3rem;
   position: absolute; /* or absolute, depending on your layout */
   bottom: 0%; /* Adjust this value to position the icon closer or further from the bottom */
   left: 50%; /* Center the icon horizontally */
-  color: white;
-  background-color: rgb(54, 54, 54);
 }
 i:hover{
   color:darkgray;
@@ -79,7 +73,7 @@ img {
   padding-right: 2rem;
   width: 20rem;
   height: auto;
-  border-radius: 20px;
+  border-radius: 50px 80px 80px 50px;
 }
 h1{
   font-size:2.3rem;

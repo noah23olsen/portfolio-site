@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: white;
+    background-color: #333;
   display: flex;
   justify-content: center;
   height: 10vh;
@@ -36,7 +36,7 @@ export default {
 }
 .nav-link {
   background-color:rgba(154, 140, 140, 0.1);
-  color: black; /*text color */
+  color: white; /*text color */
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 0.5rem; /* Add border-radius for a modern look */
@@ -45,8 +45,7 @@ export default {
 }
 .nav-link:hover {
   cursor: pointer;
-  background-color: #141212; /* Change the color to your desired shade */
-  color:white;
+  background-color: #5c5c5c; /* Change the color to your desired shade */
 }
 
 
