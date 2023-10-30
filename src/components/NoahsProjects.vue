@@ -158,7 +158,7 @@ p.overlay-text {
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 0rem;
+    margin:1rem;
     width:80%;
   }
   .projectTitle {
