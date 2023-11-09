@@ -22,6 +22,13 @@ export default {
     TheProject
   },
   data() {
+  //   {
+  //   languages: [""],
+  //   title: "",
+  //   link: "",
+  //   imgSrc: require(""),
+  //   description:""
+  // },
     return {
       projects: [
   {
@@ -31,12 +38,26 @@ export default {
     imgSrc: require("@/assets/chatbotPic.png"),
     description: "[Final capstone] My final capstone project was a chatbot that served as a middle ground between simplistic customer-service chatbots and custom LLMs like chatGPT. The chatbot allowed users to speak, listen, ask technical questions, receive custom emailed jobs, interpret code, take profile pictures, and keep context. I worked on this project with three other students, and we followed an Agile methodology with multi-day sprints, daily standups, code reviews, and a final presentation.",
   },
+      {
+    languages: ["React", "Java", "Javascript", "PostgreSQL", "Postman"],
+    title: "HealthTracker",
+    link: "https://github.com/noah23olsen/HealthTracker",
+    imgSrc: require("@/assets/heart2.png"),
+    description:"A tool to track rudimentary biometrics such as sleep, hydration, and diet. This project is my first experience using React in an actual application. Very exciting things!"
+  },
   {
     languages: ["Vue.js", "OpenAI", "Javascript"],
     title: "Quiz.AI",
     link: "https://github.com/noah23olsen/hackathonAtCohatch",
     imgSrc: require("@/assets/Quiz.AI.png"),
     description: "[Hackathon Project] Generate custom quizzes with ChatGPT's turbo 3.5 large language model in seconds! This project was created by me and a fellow Tech Elevator alumnus during a Google Developer Group hackathon this past weekend. In approximately 10 hours, we progressed from ideation to building the MVP, crafting a pitch, and presenting the product to local Columbus developers.",
+  },
+  {
+    languages: ["Laravel", "PHP", "Vue.js", "PostgreSQL"],
+    title: "Car Dealership",
+    link: "https://github.com/noah23olsen/LaravelCrud",
+    imgSrc: require("@/assets/carLogo.jpg"),
+    description:"Create, read, update, and delete cars from a dealership. The premise of this project was to get more familiar with PHP and the Laravel framework."
   },
   {
     languages: ["Java","Spring Boot", "PostgreSQL","JUnit",],
