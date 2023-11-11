@@ -22,6 +22,10 @@
             chatting? Send a direct message on LinkedIn or reach out at
             noah23olsen@gmail.com
           </p>
+           <!-- <button @click="downloadResume">Download Resume</button> -->
+          <!-- <img src="/img/resume.ea7b3918.png" alt="" data-v-6cb1b4f6="">  -->
+            <a href="/img/resume.ea7b3918.png" download>Download Resume</a>
+            <!-- <img src="../assets/resume.png" alt=""> -->
         </div>
           <img class="about-me-image" src="../assets/noah_olsen.png" />
       </section>
@@ -40,8 +44,15 @@ export default {
         behavior: 'smooth'
       })
     }
+  },
+    downloadResume() {
+      // Construct the URL to the resume.png file
+      const resumeUrl = "/assets/resume.png";
+
+      // Simulate the download by navigating to the file URL
+      window.location.href = resumeUrl;
+    },
   }
-};
 </script>
 <style scoped>
 i.uil-angle-down{
