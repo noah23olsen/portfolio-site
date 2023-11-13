@@ -24,7 +24,7 @@
           </p>
            <!-- <button @click="downloadResume">Download Resume</button> -->
           <!-- <img src="/img/resume.ea7b3918.png" alt="" data-v-6cb1b4f6="">  -->
-            <a href="/img/resume.ea7b3918.png" download>Download Resume</a>
+            <!-- <a href="/img/resume.ea7b3918.png" download>Download Resume</a> -->
             <!-- <img src="../assets/resume.png" alt=""> -->
         </div>
           <img class="about-me-image" src="../assets/noah_olsen.png" />
